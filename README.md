@@ -64,6 +64,21 @@ m3("Jiaxiang Li")
 #> ─ The text is already pasted on your system copyboard! ───────────────────────────────
 ```
 
+    This is a summary title
+    This is content like image, link and so on.
+    It can be folded to help readers focus on someting important. 
+
+In the console, call `m_detail()`, and paste on your document.
+
+<details>
+
+<summary>This is a summary title</summary>
+
+This is content like image, link and so on. It can be folded to help
+readers focus on someting important.
+
+</details>
+
 ## Example
 
 See the [vignettes](https://jiaxiangbu.github.io/add2md/articles/).
