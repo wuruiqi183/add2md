@@ -2,7 +2,7 @@ Package: add2md
 Type: Package
 Title: Add to markdown
 Version: 0.1.0
-Author: person("Jiaxiang", "", "Li", role = c("aut", "cre"), email = "alex.lijiaxiang@foxmail.com"),
+Authors@R: person("Jiaxiang", "", "Li", role = c("aut", "cre"), email = "alex.lijiaxiang@foxmail.com")
 Maintainer: Jiaxiang Li <alex.lijiaxiang@foxmail.com>
 Description: The goal of add2md is to help R users to type markdown in .Rmd.
 License: MIT + file LICENSE
@@ -12,3 +12,7 @@ Depends: R (>= 3.1.0)
 URL: https://github.com/JiaxiangBU/add2md
 BugReports: https://github.com/JiaxiangBU/add2md/issues
 RoxygenNote: 6.1.1
+Imports: 
+    clipr,
+    glue,
+    cli

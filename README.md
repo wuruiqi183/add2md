@@ -26,6 +26,35 @@ library(add2md)
 
 ## Usage
 
+``` r
+m()
+#> This is the helper for R users to use markdown.
+#> ────────────────────────  Type m1('url') URL ────────────────────────
+#> Input m1("url","name")
+#> Output [name](url)
+#> e.g. m1("https://github.com/JiaxiangBU/add2md/","add2md")
+#> [add2md](https://github.com/JiaxiangBU/add2md/)
+#> ──────────────────────  Type m2('url','name') Image ──────────────────────
+#> Input m2("url","name")
+#>  Output ![name](url)
+#>  e.g. m2("https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png","The blog wallpaper")
+#>  ![The blog wallpaper](https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png)
+#> ────────────────────────  Type m3('name') bold ────────────────────────
+#> Input m3("name")
+#>  Output **name**
+#>  e.g. m3("Jiaxiang Li")
+#>  **Jiaxiang Li**
+m1("https://github.com/JiaxiangBU/add2md/","add2md")
+#> [add2md](https://github.com/JiaxiangBU/add2md/)
+#> ─ The text is already pasted on your system copyboard! ───────────────────────────────
+m2("https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png","The blog wallpaper")
+#> ![The blog wallpaper](https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png)
+#> ─ The text is already pasted on your system copyboard! ───────────────────────────────
+m3("Jiaxiang Li")
+#> **Jiaxiang Li**
+#> ─ The text is already pasted on your system copyboard! ───────────────────────────────
+```
+
 ## Example
 
 See the [vignettes](https://jiaxiangbu.github.io/add2md/articles/).

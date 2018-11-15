@@ -36,6 +36,19 @@ library(add2md)
 
 ## Usage
 
+```{r include=FALSE}
+devtools::load_all(".")
+```
+
+
+```{r}
+m()
+m1("https://github.com/JiaxiangBU/add2md/","add2md")
+m2("https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png","The blog wallpaper")
+m3("Jiaxiang Li")
+```
+
+
 ## Example
 
 See the [vignettes](https://jiaxiangbu.github.io/add2md/articles/).
