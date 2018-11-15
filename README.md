@@ -44,12 +44,21 @@ m()
 #>  Output **name**
 #>  e.g. m3("Jiaxiang Li")
 #>  **Jiaxiang Li**
+```
+
+``` r
 m1("https://github.com/JiaxiangBU/add2md/","add2md")
 #> [add2md](https://github.com/JiaxiangBU/add2md/)
 #> ─ The text is already pasted on your system copyboard! ───────────────────────────────
+```
+
+``` r
 m2("https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png","The blog wallpaper")
 #> ![The blog wallpaper](https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png)
 #> ─ The text is already pasted on your system copyboard! ───────────────────────────────
+```
+
+``` r
 m3("Jiaxiang Li")
 #> **Jiaxiang Li**
 #> ─ The text is already pasted on your system copyboard! ───────────────────────────────

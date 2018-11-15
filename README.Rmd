@@ -43,8 +43,17 @@ devtools::load_all(".")
 
 ```{r}
 m()
+```
+ 
+```{r}
 m1("https://github.com/JiaxiangBU/add2md/","add2md")
+```
+ 
+```{r}
 m2("https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png","The blog wallpaper")
+```
+ 
+```{r}
 m3("Jiaxiang Li")
 ```
 
