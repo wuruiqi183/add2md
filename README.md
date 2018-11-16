@@ -46,29 +46,57 @@ m()
 #>  **Jiaxiang Li**
 ```
 
-``` r
-m1("https://github.com/JiaxiangBU/add2md/","add2md")
-#> [add2md](https://github.com/JiaxiangBU/add2md/)
-#> ─ The text is already pasted on your system copyboard! ───────────────────────────────
-```
+Write down this sentence,
+
+> <https://jiaxiangbu.github.io/add2md/> add2md官网
+
+Here is a unit of space between the two phrases. In the R console, type
+`m1()` or **click shortcut `shift+cmd+7`** (You can change it in *Tools
+-\> Modify Keyboard
+Shortcuts*)
+
+![](https://raw.githubusercontent.com/JiaxiangBU/add2md/m-func/inst/pic/shortcutsetting.png)
 
 ``` r
-m2("https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png","The blog wallpaper")
-#> ![The blog wallpaper](https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png)
-#> ─ The text is already pasted on your system copyboard! ───────────────────────────────
+m1()
 ```
 
+`[add2md官网](https://jiaxiangbu.github.io/add2md/)`
+
+The return is on the clipboard. Just copy, `m1()` and paste \!
+
+Similarly, for `m2` or **click shortcut `shift+cmd+8`** (You can change
+it in *Tools -\> Modify Keyboard
+> Shortcuts*)
+
+> <https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png>
+> The blog wallpaper
+
 ``` r
-m3("Jiaxiang Li")
-#> **Jiaxiang Li**
-#> ─ The text is already pasted on your system copyboard! ───────────────────────────────
+m2()
 ```
+
+`![The blog
+wallpaper](https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png)`
+
+Similarly, for `m3` or **click shortcut `shift+cmd+9`** (You can change
+it in *Tools -\> Modify Keyboard Shortcuts*)
+
+> Jiaxiang Li
+
+``` r
+m3()
+```
+
+`**Jiaxiang Li**`
 
     This is a summary title
     This is content like image, link and so on.
     It can be folded to help readers focus on someting important. 
 
-In the console, call `m_detail()`, and paste on your document.
+In the console, call `m_detail()`, and paste on your document or **click
+shortcut `shift+cmd+0`** (You can change it in *Tools -\> Modify
+Keyboard Shortcuts*)
 
 <details>
 

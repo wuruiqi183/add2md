@@ -1,6 +1,14 @@
+# add2md 0.1.3
+
+* Added add-ins for functions `m1`, `m2`, `m3` and `m_detail`, enjoy it!
+
+* Automatically pasted feature for functions `m1`, `m2`, `m3` and `m_detail`, enjoy it!
+
 # add2md 0.1.2
 
 * Added the function `tips` for regulating the warning.
+
+* Added copy-paste workflow for functions `m1`, `m2`, `m3`, enjoy it!
 
 # add2md 0.1.1
 

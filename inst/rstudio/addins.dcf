@@ -1,0 +1,19 @@
+Name: Build a url in markdown
+Description: This function helps users to paste url in markdown
+Binding: m1
+Interactive: false
+
+Name: Build an image in markdown
+Description: This function helps users to paste image in markdown
+Binding: m2
+Interactive: false
+
+Name: Bold your text in markdown
+Description: This function helps users to paste bold text in markdown
+Binding: m3
+Interactive: false
+
+Name: Build detail and summary html5 style in markdown
+Description: This function helps users to fold the details by html5 tags.
+Binding: m_detail
+Interactive: false

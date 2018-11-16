@@ -4,9 +4,7 @@
 \alias{m2}
 \title{Build an image in markdown}
 \usage{
-
-  m2(url = "https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png",
-  name = "")
+m2()
 }
 \arguments{
 \item{url}{Character.}

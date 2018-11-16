@@ -1,6 +1,6 @@
-#' Bold your text in markdown
+#' Build detail and summary html5 style in markdown
 #'
-#' This function helps users to paste bold text in markdown
+#' This function helps users to fold the details by html5 tags.
 #'
 #' @param name Character.
 
@@ -29,7 +29,9 @@ m_detail <- function(){
     {content}
 
     </details>",title=title,content=content)
-    clipr::write_clip(text)
+    # clipr::write_clip(text)
+    rstudioapi::insertText(text)
+    # 省略粘贴的步骤
     cat(
         sep="\n"
         ,text

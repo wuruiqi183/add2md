@@ -2,7 +2,7 @@
 % Please edit documentation in R/m_detail.R
 \name{m_detail}
 \alias{m_detail}
-\title{Bold your text in markdown}
+\title{Build detail and summary html5 style in markdown}
 \usage{
 m_detail()
 }
@@ -13,7 +13,7 @@ m_detail()
 Character.
 }
 \description{
-This function helps users to paste bold text in markdown
+This function helps users to fold the details by html5 tags.
 }
 \author{
 Jiaxiang Li
