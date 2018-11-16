@@ -55,7 +55,7 @@ Here is a unit of space between the two phrases. In the R console, type
 -\> Modify Keyboard
 Shortcuts*)
 
-<img src="/Users/vija/Downloads/180805_folder_01/tmp_jli/trans/projIN/add2md/inst/pic/shortcutsetting.png" width="100%" />
+![](https://raw.githubusercontent.com/JiaxiangBU/add2md/m-func/inst/pic/shortcutsetting.png)
 
 ``` r
 m1()
