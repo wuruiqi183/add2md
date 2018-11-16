@@ -56,28 +56,22 @@ Here is a unit of space between the two phrases.
 2.  In the R console, type `m1()`
 3.  Paste it on your position
 
-or recommendation\!
+`[add2md官网](https://jiaxiangbu.github.io/add2md/)` The return is on the
+clipboard. Just copy, `m1()` and paste \!
+
+or **recommendation**\!
 
 1.  select
-
+    ![](https://raw.githubusercontent.com/JiaxiangBU/add2md/m-func/inst/pic/addin.png)
 2.  click add-in and **automatically** paste
 
-You can sett the shortcut in *Tools -\> Modify Keyboard
+You can set the shortcut in *Tools -\> Modify Keyboard
 Shortcuts*.
 
 ![](https://raw.githubusercontent.com/JiaxiangBU/add2md/m-func/inst/pic/shortcutsetting.png)
 
-``` r
-m1()
-```
-
-`[add2md官网](https://jiaxiangbu.github.io/add2md/)`
-
-The return is on the clipboard. Just copy, `m1()` and paste \!
-
-Similarly, for `m2` or **click shortcut `shift+cmd+8`** (You can change
-it in *Tools -\> Modify Keyboard
-> Shortcuts*)
+Similarly, for
+> `m2`
 
 > <https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png>
 > The blog wallpaper
@@ -86,11 +80,7 @@ it in *Tools -\> Modify Keyboard
 m2()
 ```
 
-`![The blog
-wallpaper](https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png)`
-
-Similarly, for `m3` or **click shortcut `shift+cmd+9`** (You can change
-it in *Tools -\> Modify Keyboard Shortcuts*)
+Similarly, for `m3`
 
 > Jiaxiang Li
 
@@ -104,9 +94,7 @@ m3()
     This is content like image, link and so on.
     It can be folded to help readers focus on someting important. 
 
-In the console, call `m_detail()`, and paste on your document or **click
-shortcut `shift+cmd+0`** (You can change it in *Tools -\> Modify
-Keyboard Shortcuts*)
+In the console, call `m_detail()`, and paste on your document.
 
 <details>
 
