@@ -1,6 +1,6 @@
 # add2md 0.1.2
 
-* Added the function `m_detail` for regulating the warning.
+* Added the function `tips` for regulating the warning.
 
 # add2md 0.1.1
 
