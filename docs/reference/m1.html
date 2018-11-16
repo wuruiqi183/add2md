@@ -64,7 +64,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">add2md</a>
-        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.2</span>
       </span>
     </div>
 
@@ -114,35 +114,19 @@
     
     </div>
 
-    <pre class="usage"><span class='fu'>m1</span>(<span class='kw'>url</span> <span class='kw'>=</span> <span class='st'>"https://github.com/JiaxiangBU/add2md/"</span>, <span class='kw'>name</span> <span class='kw'>=</span> <span class='st'>""</span>)</pre>
-    
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>url</th>
-      <td><p>Character.</p></td>
-    </tr>
-    <tr>
-      <th>name</th>
-      <td><p>Character.</p></td>
-    </tr>
-    </table>
-    
+    <pre class="usage"><span class='fu'>m1</span>()</pre>
+        
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
     <p>Character.</p>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>m1</span>(<span class='st'>"https://github.com/JiaxiangBU/add2md/"</span>)</div><div class='output co'>#&gt; [](https://github.com/JiaxiangBU/add2md/)
-#&gt; [31m─[39m [31mThe text is already pasted on your system copyboard![39m [31m───────────────────────────────[39m</div><div class='input'><span class='fu'>m1</span>(<span class='st'>"https://github.com/JiaxiangBU/add2md/"</span>,<span class='st'>"add2md"</span>)</div><div class='output co'>#&gt; [add2md](https://github.com/JiaxiangBU/add2md/)
-#&gt; [31m─[39m [31mThe text is already pasted on your system copyboard![39m [31m───────────────────────────────[39m</div></pre>
+    <pre class="examples"><div class='input'><span class='fu'>m1</span>(<span class='st'>"https://github.com/JiaxiangBU/add2md/"</span>)</div><div class='output co'>#&gt; <span class='error'>Error in m1("https://github.com/JiaxiangBU/add2md/"): 参数没有用("https://github.com/JiaxiangBU/add2md/")</span></div><div class='input'><span class='fu'>m1</span>(<span class='st'>"https://github.com/JiaxiangBU/add2md/"</span>,<span class='st'>"add2md"</span>)</div><div class='output co'>#&gt; <span class='error'>Error in m1("https://github.com/JiaxiangBU/add2md/", "add2md"): 参数没有用("https://github.com/JiaxiangBU/add2md/", "add2md")</span></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#arguments">Arguments</a></li>
       
       <li><a href="#value">Value</a></li>
       

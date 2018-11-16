@@ -2,9 +2,6 @@
 #'
 #' This function helps users to paste url in markdown
 #'
-#' @param url Character.
-#' @param name Character.
-
 #' @return Character.
 #' @author Jiaxiang Li
 #'
@@ -17,13 +14,25 @@
 #' m1("https://github.com/JiaxiangBU/add2md/")
 #' m1("https://github.com/JiaxiangBU/add2md/","add2md")
 
-m1 <-
-function(url="https://github.com/JiaxiangBU/add2md/",name=""){
-    text <- glue::glue('[{name}]({url})')
-    clipr::write_clip(text)
-    cat(
-        sep="\n"
-        ,text
-        ,tips()
-    )
+m1 <- function(){
+    line <-
+        clipr::read_clip() %>%
+        str_split(n=2,pattern=' ') %>%
+        .[[1]]
+    url <- line[1]
+    name <- line[2]
+    name <- ifelse(is.na(name),'',name)
+
+    m1 <-
+    function(url="https://github.com/JiaxiangBU/add2md/",name=""){
+        text <- glue::glue('[{name}]({url})')
+        clipr::write_clip(text)
+        cat(
+            sep="\n"
+            ,text
+            ,tips()
+        )
+    }
+    m1(url,name)
 }
+

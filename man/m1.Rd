@@ -4,12 +4,7 @@
 \alias{m1}
 \title{Build a url in markdown}
 \usage{
-m1(url = "https://github.com/JiaxiangBU/add2md/", name = "")
-}
-\arguments{
-\item{url}{Character.}
-
-\item{name}{Character.}
+m1()
 }
 \value{
 Character.

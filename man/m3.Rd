@@ -4,10 +4,7 @@
 \alias{m3}
 \title{Bold your text in markdown}
 \usage{
-m3(name = "Type something")
-}
-\arguments{
-\item{name}{Character.}
+m3()
 }
 \value{
 Character.
