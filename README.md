@@ -52,7 +52,10 @@ Write down this sentence,
 
 Here is a unit of space between the two phrases. In the R console, type
 `m1()` or **click shortcut `shift+cmd+7`** (You can change it in *Tools
--\> Modify Keyboard Shortcuts*)
+-\> Modify Keyboard
+Shortcuts*)
+
+<img src="/Users/vija/Downloads/180805_folder_01/tmp_jli/trans/projIN/add2md/inst/pic/shortcutsetting.png" width="100%" />
 
 ``` r
 m1()
