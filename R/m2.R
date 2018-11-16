@@ -28,7 +28,9 @@ m2 <- function(){
     m2 <-
         function(url="https://raw.githubusercontent.com/JiaxiangBU/picbackup/master/add2blog_sample_wallpaper.png",name=""){
             text <- glue::glue('![{name}]({url})')
-            clipr::write_clip(text)
+            # clipr::write_clip(text)
+            rstudioapi::insertText(text)
+            # 省略粘贴的步骤
             cat(
                 sep="\n"
                 ,text

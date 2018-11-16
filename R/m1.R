@@ -26,7 +26,9 @@ m1 <- function(){
     m1 <-
     function(url="https://github.com/JiaxiangBU/add2md/",name=""){
         text <- glue::glue('[{name}]({url})')
-        clipr::write_clip(text)
+        # clipr::write_clip(text)
+        rstudioapi::insertText(text)
+        # 省略粘贴的步骤
         cat(
             sep="\n"
             ,text

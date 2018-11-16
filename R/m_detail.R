@@ -29,7 +29,9 @@ m_detail <- function(){
     {content}
 
     </details>",title=title,content=content)
-    clipr::write_clip(text)
+    # clipr::write_clip(text)
+    rstudioapi::insertText(text)
+    # 省略粘贴的步骤
     cat(
         sep="\n"
         ,text
