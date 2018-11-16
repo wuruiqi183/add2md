@@ -50,10 +50,20 @@ Write down this sentence,
 
 > <https://jiaxiangbu.github.io/add2md/> add2md官网
 
-Here is a unit of space between the two phrases. In the R console, type
-`m1()` or **click shortcut `shift+cmd+7`** (You can change it in *Tools
--\> Modify Keyboard
-Shortcuts*)
+Here is a unit of space between the two phrases.
+
+1.  Copy it
+2.  In the R console, type `m1()`
+3.  Paste it on your position
+
+or recommendation\!
+
+1.  select
+
+2.  click add-in and **automatically** paste
+
+You can sett the shortcut in *Tools -\> Modify Keyboard
+Shortcuts*.
 
 ![](https://raw.githubusercontent.com/JiaxiangBU/add2md/m-func/inst/pic/shortcutsetting.png)
 

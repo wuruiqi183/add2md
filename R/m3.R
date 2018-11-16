@@ -15,7 +15,14 @@
 
 
 m3 <- function(){
-    line <- clipr::read_clip()
+    line <-
+        # clipr::read_clip() %>%
+        rstudioapi::getSourceEditorContext() %>%
+        rstudioapi::primary_selection() %>%
+        .[["text"]] %>%
+        # 省略复制的步骤，参考reprex
+        str_split(n=2,pattern=' ') %>%
+        .[[1]]
 
     m3 <-
         function(name="Type something"){
