@@ -1,6 +1,6 @@
-#' Bold your text in markdown
+#' Build detail and summary html5 style in markdown
 #'
-#' This function helps users to paste bold text in markdown
+#' This function helps users to fold the details by html5 tags.
 #'
 #' @param name Character.
 
