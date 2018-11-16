@@ -1,3 +1,7 @@
+# add2md 0.1.2
+
+* Added the function `m_detail` for regulating the warning.
+
 # add2md 0.1.1
 
 * Added the function `m_detail` for fold your text.

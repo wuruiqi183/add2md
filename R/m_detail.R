@@ -33,6 +33,6 @@ m_detail <- function(){
     cat(
         sep="\n"
         ,text
-        ,cli::rule(left = "The text is already pasted on your system copyboard!", col = "red")
+        ,tips()
     )
 }
