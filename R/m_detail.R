@@ -14,7 +14,14 @@
 #' @export
 
 m_detail <- function(){
-    input <- clipr::read_clip()
+    input <-
+        # clipr::read_clip() %>%
+        rstudioapi::getSourceEditorContext() %>%
+        rstudioapi::primary_selection() %>%
+        .[["text"]] %>%
+        # 省略复制的步骤，参考reprex
+        str_split(n=2,pattern=' ') %>%
+        .[[1]]
     title <-
         input %>%
         .[1]

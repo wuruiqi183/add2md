@@ -1,3 +1,8 @@
+# add2md 0.1.4
+
+* Automatically copy feature for functions `m1`, `m2`, `m3` and `m_detail`, enjoy it!
+    + Test but it doesn't work for some Mac.
+
 # add2md 0.1.3
 
 * Added add-ins for functions `m1`, `m2`, `m3` and `m_detail`, enjoy it!
