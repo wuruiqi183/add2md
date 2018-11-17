@@ -2,8 +2,10 @@ Package: add2md
 Type: Package
 Title: Add to markdown
 Version: 0.1.4
-Authors@R: person("Jiaxiang", "", "Li", role = c("aut", "cre"), email = "alex.lijiaxiang@foxmail.com"),
-person("Xiaosong", "", "Jin", role = c("aut", "cre"), email = "278220479@qq.com")
+Authors@R: c(
+    person("Jiaxiang", "Li", role = c("aut", "cre"), email = "alex.lijiaxiang@foxmail.com"),
+    person("Xiaosong", "Jin", role = c("ctb"), email = "278220479@qq.com")
+    )
 Maintainer: Jiaxiang Li <alex.lijiaxiang@foxmail.com>
 Description: The goal of add2md is to help R users to type markdown in .Rmd.
 License: MIT + file LICENSE
